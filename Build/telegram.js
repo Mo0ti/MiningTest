@@ -1,5 +1,2 @@
-var WebApp = window.Telegram.WebApp;
-
-if (WebApp.isExpanded == false){
-function WebApp.Expand();
-}
+const tele = window.Telegram.WebApp;
+tele.expand();
