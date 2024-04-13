@@ -2,4 +2,4 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-tg.BackButton.isVisible = true;
+tg.showAlert(`Добро пожаловать, @${tg.WebAppInitData.user.username}.`);
