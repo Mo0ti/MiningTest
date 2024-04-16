@@ -1,3 +1,3 @@
-let tg = window.Telegram.WebApp;
+var tg = window.Telegram.WebApp;
 
 tg.expand();
