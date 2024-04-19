@@ -2,6 +2,8 @@ var tg = window.Telegram.WebApp;
 
 tg.expand();
 
+tg.BackButton.isVisible = true;
+
 //(function($){
 //$(function() {
 //  var userName = tg.tg.initDataUnsafe.user.username;
