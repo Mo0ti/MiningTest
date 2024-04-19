@@ -14,6 +14,6 @@ tg.expand();
 //tg.showAlert(`Добро пожаловать, ${tg.initDataUnsafe.user.username}.`);
 //}(jQuery));
 
-(function($){
-tg.showAlert(`Добро пожаловать, ${tg.initDataUnsafe.user.id}.`);
-}(jQuery));
+//(function($){
+//tg.showAlert(`Добро пожаловать, ${tg.initDataUnsafe.user.id}.`);
+//}(jQuery));
