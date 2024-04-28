@@ -1,6 +1,8 @@
-var tg = window.Telegram.WebApp;
+window.Telegram.WebApp.expand();
 
-tg.expand();
+//var tg = window.Telegram.WebApp;
+
+//tg.expand();
 
 //tg.BackButton.isVisible = true;
 
